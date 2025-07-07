@@ -190,6 +190,16 @@ b=int(y)
 # print(mylist[:4])
 # print(mylist[2:])
 # print(mylist[-4:-1])
+                        ###########333  chnage the list items
+# mylist=["apple","banana","cat","dog","eye"]
+# # mylist[1:3]=["zero ","herp","piro"]
+# # mylist.append("zero")
+# # mylist.insert(0,"zero")
+# # mylist[0]="zero"
+# print(mylist)
 
 
-
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
