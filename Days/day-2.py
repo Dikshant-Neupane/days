@@ -105,3 +105,60 @@
 #  #########  axtend to use garera pani join garna milxa
 # list1.extend(list2)
 # print(list1)
+
+
+
+
+#########################  TUPLE (unchange able list)
+
+# tuplelist=("apple","banana","cat","apple")##it allows duplicates
+# # print(tuplelist)
+# print(len(tuplelist))#lenght herna 
+#  #tupple cannot be created with one item but....
+# list=("aple",)
+# print(type(list))
+ 
+####### aother way to declare a tuple
+
+# list=tuple(("appple",))##rember it have two inclosed brackets 
+# print(list)
+###smilar to list we can access tuple items
+# thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+# print(thistuple[-4:-1])
+
+
+# ############### Updates the tuples
+
+# x=("apple","orange","banana")#here new variable y is introduced as a temp variable we can perform any change in tuple as tuple cant be manupuated directly
+# y=list(x)
+# y[1]="kiwi"
+# x=tuple(y)
+# print(x)  
+
+
+
+###add items y=list(x)
+# x=("apple","orange","banana")
+# y=list(x)
+# y.append("kiwi")
+# x=tuple(y)
+# print(x)
+
+
+###############Add typle to tulpe
+# thistuple = ("apple", "banana", "cherry")
+# y = ("orange",)
+# thistuple += y
+
+# print(thistuple)
+
+
+############ Remove a tuple
+
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.remove("apple")
+thistuple = tuple(y)
+print(thistuple)
+
+#del thistuple garesi sabai tuple nai udxa
